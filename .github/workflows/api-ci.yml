@@ -19,7 +19,7 @@ jobs:
           node-version: 18
 
       - name: install dependencies
-        working-directory: services/api
+        working-directory: api-service
         run: npm install
 
       - name: run tests
